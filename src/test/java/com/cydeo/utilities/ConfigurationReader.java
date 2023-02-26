@@ -1,4 +1,4 @@
-package com.cydeo.utilities;
+package  com.cydeo.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -34,4 +34,5 @@ public class ConfigurationReader {
     public static String getProperty(String keyword){
         return properties.getProperty(keyword);
     }
+
 }
